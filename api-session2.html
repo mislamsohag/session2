@@ -12,7 +12,7 @@
 
 <body>
     <div class="container w-100 m-auto">
-        <div class="row w-100 m-auto">
+        <div class="row d-flex g-2 w-100 m-auto">
             <div class="col-md-6 w-100 m-auto text-center">
                 <h1 class="text-center">Left Side</h1>
                 <div class="input-group mb-3">
@@ -22,14 +22,19 @@
                         <span onclick="allPlayers()" class="input-group-text" id="search-btn">Search</span>
                     </div>
                 </div>
+                <div id="player-container" class="player-container">
+
+                </div>
             </div>
             <div class="col-md-6 w-100 m-auto text-center">
                 <h1 class="text-center">Right Side</h1>
+                <div id="details-field">
+
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="api-session2.js"></script>
+        <script src="api-session2.js"></script>
 </body>
 
 </html>
