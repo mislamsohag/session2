@@ -18,7 +18,7 @@ const showPlayerDetails = (players) => {
         div.innerHTML = `
                         <div class="card border">
                                 <div class="pro-pic">
-                                    <img class="w-25" src="${player.strThumb}" alt="">
+                                    <img class="w-50" src="${player.strThumb}" alt="">
                                 </div>
                             <h2>Name: ${player.strPlayer}</h2>
                             <h5>Contry: ${player.strNationality}</h5>
@@ -46,7 +46,7 @@ const details = (id) => {
 const showDetails = (details) => {
     document.getElementById('details-field').innerHTML = `
         <div>
-            <img src="${details.strThumb}" alt="">
+            <img class="img-fluid" src="${details.strThumb}" alt="">
             <h1>Name: ${details.strPlayer}</h1>
         </div>
         `;
