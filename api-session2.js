@@ -44,7 +44,7 @@ const details = (id) => {
 const showDetails = (details) => {
     document.getElementById('details-field').innerHTML = `
         <div>
-            <img class="" alt="">
+            <img src="${details.strThumb}" alt="">
             <h1>Name: ${details.strPlayer}</h1>
         </div>
         `;
